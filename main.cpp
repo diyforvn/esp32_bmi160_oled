@@ -38,7 +38,7 @@ Point2D project(Point3D p, float pitch, float roll) {
   int cy = SCREEN_HEIGHT / 2 + 5;    // hạ xuống chút cho cân
 
   Point2D pt;
-  pt.x = (int)(cx + x2 * scale * 35);   // scale 50 cho vừa OLED
+  pt.x = (int)(cx + x2 * scale * 35);   // scale 35 cho vừa OLED
   pt.y = (int)(cy - y1 * scale * 35);
   return pt;
 }
@@ -146,4 +146,5 @@ void loop() {
   
   delay(50);
 }
+
 
