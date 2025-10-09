@@ -115,7 +115,7 @@ delay(2000);
 
 void loop() {
   int16_t accelGyro[6]={0}; 
-  int rslt = bmi160.getAccelGyroData(accelGyro); // theo ví dụ của bạn
+  int rslt = bmi160.getAccelGyroData(accelGyro); 
 
   if(rslt == 0)
   {
@@ -146,3 +146,4 @@ void loop() {
   
   delay(50);
 }
+
